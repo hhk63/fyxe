@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import './NavigationBar.css';
 
 
 export default function NavigationBar() {
@@ -8,7 +9,7 @@ export default function NavigationBar() {
 
     return (
         <div className="navigate-bar">
-            <Box>
+            <Box className="box">
                 <div className="home-button" onClick={() => navigate('./')}>
                     <button>Home</button>
                 </div>   

@@ -1,0 +1,10 @@
+.navigate-bar {
+    width: 100%;
+}
+.box{
+    display: flex;
+    width: 100%;
+    div {
+        flex: 1;
+    }
+}
