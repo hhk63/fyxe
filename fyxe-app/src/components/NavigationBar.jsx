@@ -10,17 +10,20 @@ export default function NavigationBar() {
     return (
         <div className="navigate-bar">
             <Box className="box">
-                <div className="home-button" onClick={() => navigate('./')}>
+                <div className="home-button" onClick={() => navigate('/')} >
                     <button>Home</button>
                 </div>   
-                <div className="learn-button" onClick={() => navigate('./Learn')}>
+                <div className="learn-button" onClick={() => navigate('/Learn')} >
                     <button>Learn</button>
                 </div>
-                <div className="GPT-Wall button" onClick={() => navigate('./GPTWall')} >
+                <div className="GPT-Wall button" onClick={() => navigate('/GPTWall')} >
                     <button>GPTWall</button>
                 </div>
-                <div className="about-button" onClick={() => navigate('./About')}>
+                <div className="about-button" onClick={() => navigate('/About')} >
                     <button>About</button>
+                </div>
+                <div className="fyxe">
+                    <h1>Fyxe</h1>
                 </div>
             </Box>
         </div>
