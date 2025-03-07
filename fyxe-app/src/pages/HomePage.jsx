@@ -7,11 +7,8 @@ export default function HomePage() {
         <div className="home-container">
             <NavigationBar />
             <div className="home-content">
-                <div className="logo">
-                    <img className="logo" src={require('../resources/foxlogo.png')} />
-                </div>
                 <div className="home-header">
-                    <h1>scrubFox</h1>
+                    <h1>Fyxe</h1>
                 </div>
                 <div className="home-paragraph">
                     <p>A User-Centric Approach to Secure Communication </p>

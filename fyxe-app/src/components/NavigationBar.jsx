@@ -23,7 +23,7 @@ export default function NavigationBar() {
                     <button>About</button>
                 </div>
                 <div className="fyxe">
-                    <h1>scrubFox</h1>
+                    <h1>Fyxe</h1>
                 </div>
             </Box>
         </div>
