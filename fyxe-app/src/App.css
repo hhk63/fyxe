@@ -1,7 +1,7 @@
 .App {
   min-height: 100vh;
   display: flex;
-  background-image: url(./resources/mainbg.png);
+  background-image: url(./resources/bubbles.png);
   background-size: cover;
   background-position: center;
 }

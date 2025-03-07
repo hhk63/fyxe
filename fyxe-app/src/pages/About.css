@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 
 
-.box {
+.about-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,33 +11,30 @@
     margin: 0 auto;
 }
 
-.header {
+.about-header {
     text-align: center;
+    margin-top: 400px;
     margin-bottom: 30px;
-}
-
-.text {
-    position: absolute;
-}
-
-.header h1 {
     font-family: 'Noto Serif Display', serif;
-    font-size: 2.5rem;
+    font-size: 25px;
     font-weight: bold;
-    color: #39261c;
+    color: black;
     letter-spacing: 2px;
 }
 
-.paragraph {
+.about-text {
+    position: absolute;
+    margin-bottom: 400px;
+}
+
+
+.about-paragraph {
     font-family: 'Noto Serif Display', serif;
     max-width: 800px;
     font-size: 1.1rem;
     font-weight: bold;
     line-height: 1.8;
-    color: #39261c;
+    color: black;
     text-align: center;
-}
-
-.paragraph p {
     padding: 15px;
 }

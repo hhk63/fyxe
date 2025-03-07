@@ -4,13 +4,13 @@ import './Learn.css';
 
 export default function Learn() {
     return (
-        <div className="box">
+        <div className="learn-container">
             <NavigationBar />
-            <div className="text">
-                <div className="header">
+            <div className="learn-text">
+                <div className="learn-header">
                     <h1>Learn</h1>
                 </div>
-                <div className="paragraph">
+                <div className="learn-paragraph">
                     <p>ADD INFO HERE</p>
                 </div>
             </div>

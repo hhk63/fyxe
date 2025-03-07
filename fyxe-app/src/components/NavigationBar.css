@@ -20,7 +20,7 @@
 
 button {
     background-color: transparent;
-    color: #39261c;
+    color: black;
     border: none;
     padding: 10px 20px;
     font-family: 'Noto Serif Display', serif;
@@ -47,7 +47,7 @@ button:focus {
 .fyxe {
     margin-left: 800px;
     font-family: 'Noto Serif Display', serif;
-    color: #39261c;
+    color: black;
 }
 
 @media (max-width: 600px) {

@@ -4,13 +4,13 @@ import './About.css';
 
 export default function About() {
     return (
-        <div className="box">
+        <div className="about-container">
             <NavigationBar />
-            <div className="text">
-                <div className="header">
+            <div className="about-text">
+                <div className="about-header">
                     <h1>About</h1>
                 </div>
-                <div className="paragraph">
+                <div className="about-paragraph">
                     <p>
                         As AI becomes more integrated into daily life, users, specifically those sharing sensitive
                         information, must understand the potential privacy risks involved in interacting with

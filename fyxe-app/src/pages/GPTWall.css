@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 
 
-.box {
+.gpt-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,32 +11,51 @@
     margin: 0 auto;
 }
 
-.header {
+.gpt-header {
     text-align: center;
-    margin-bottom: 30px;
-}
-
-.text {
-    position: absolute;
-}
-
-.header h1 {
+    margin-top: 400px;
     font-family: 'Noto Serif Display', serif;
-    font-size: 2.5rem;
+    font-size: 25px;
     font-weight: bold;
-    color: #333;
+    color: black;
     letter-spacing: 2px;
 }
 
-.paragraph {
+.gpt-text {
+    position: absolute;
+    margin-bottom: 400px;
+}
+
+.gpt-paragraph {
     font-family: 'Noto Serif Display', serif;
     max-width: 800px;
     font-size: 1.1rem;
+    font-weight: bold;
     line-height: 1.8;
-    color: #555;
+    color: black;
     text-align: center;
+    padding: 15px;
+    margin-bottom: 400px;
 }
 
-.paragraph p {
-    padding: 15px;
+
+.gpt-prompt-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    margin-bottom: 400px;
+}
+
+.gpt-prompt {
+    flex: 1;
+}
+
+.gpt-submit {
+    background-color: #d77bcf !important;
+    color: black !important;
 }

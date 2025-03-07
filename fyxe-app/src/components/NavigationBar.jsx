@@ -17,13 +17,13 @@ export default function NavigationBar() {
                     <button>Learn</button>
                 </div>
                 <div className="GPT-Wall button" onClick={() => navigate('/GPTWall')} >
-                    <button>GPTWall</button>
+                    <button>Sanitizer</button>
                 </div>
                 <div className="about-button" onClick={() => navigate('/About')} >
                     <button>About</button>
                 </div>
                 <div className="fyxe">
-                    <h1>Fyxe</h1>
+                    <h1>scrubFox</h1>
                 </div>
             </Box>
         </div>
