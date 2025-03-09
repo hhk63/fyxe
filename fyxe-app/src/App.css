@@ -1,5 +1,6 @@
 .App {
   min-height: 100vh;
+  height: auto;
   display: flex;
   background-image: url(./resources/mainbg.png);
   background-size: cover;
