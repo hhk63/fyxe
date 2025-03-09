@@ -12,6 +12,9 @@ export default function About() {
                 </div>
                 <div className="about-paragraph">
                     <p>
+                        We are four Computer Science students at Portland State University who care deeply about user privacy with AI chatbots.
+                    </p>
+                    <p>
                         As AI becomes more integrated into daily life, users, specifically those sharing sensitive
                         information, must understand the potential privacy risks involved in interacting with
                         mainstream AI bots. Our platform raises awareness about the collection and use of user data

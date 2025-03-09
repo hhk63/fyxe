@@ -1,41 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;700&display=swap');
 
 
 .learn-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    height: auto;
 }
 
 .learn-header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: 'Noto Serif Display', serif;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
     color: black;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
-.learn-text {
-    flex:1;
-    margin-bottom: 500px;
+.learn-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1000px;
 }
 
-
+.learn-section {
+    flex: 1;
+    min-width: 450px;
+    background: #f9e5b1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 
 .learn-paragraph {
-    font-family: 'Noto Serif Display', serif;
-    max-width: 800px;
-    font-size: 1.1rem;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
     font-weight: bold;
-    line-height: 1.8;
+    line-height: 1.6;
     color: black;
-    text-align: center;
-    padding: 15px;
+    text-align: left;
+    font-family: 'Garamond', serif;
+}
+
+.learn-subheader {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #392d19;
+    font-family: 'Garamond', serif;
+    
+}
+
+.learn-paragraph {
+    font-weight: 400; /* Normal */
+}
+
+.learn-paragraph strong {
+    font-weight: 700 !important; /* Bold */
 }

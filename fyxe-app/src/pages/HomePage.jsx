@@ -11,7 +11,7 @@ export default function HomePage() {
                     <h1>Fyxe</h1>
                 </div>
                 <div className="home-paragraph">
-                    <p>A User-Centric Approach to Secure Communication </p>
+                    <p>A User-Centric Approach to Privacy-Conscious AI Communication </p>
                 </div>
             </div>
         </div>
