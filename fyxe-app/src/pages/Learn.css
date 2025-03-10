@@ -31,11 +31,15 @@
 .learn-section {
     flex: 1;
     min-width: 450px;
-    background: #f9e5b1;
+    max-width: 48%;
+    background: #ffe4b3;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    border: 2px solid black; /* Black border with 2px thickness */
+    box-sizing: border-box;
+
 }
 
 .learn-paragraph {
@@ -64,4 +68,16 @@
 
 .learn-paragraph strong {
     font-weight: 700 !important; /* Bold */
+}
+
+.learn-link {
+    color: #007bff; /* Blue like standard links */
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+    margin: 0 4px;
+}
+
+.learn-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline;
 }
